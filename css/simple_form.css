@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-flow: column wrap;
     align-content: center;
-    background: rgba(255, 151, 53, 0.658);
+    background: rgba(223, 102, 22, 0.89);
     font-weight: bold;
     padding: 20px;
     margin-bottom: 20px;
@@ -49,4 +49,15 @@ error-output {
     font-size: 10px;
     font-style: italic;
     color: darkred;
+}
+
+@media only screen and(max-width: 360px){
+    h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    level{
+        width: 30%;
+        font-size: 12px;
+    }
 }
